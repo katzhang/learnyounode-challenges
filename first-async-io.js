@@ -9,4 +9,4 @@ fs.readFile(filePath, function(err, data) {
 		file = data.toString();
 		console.log(file.split('\n').length - 1);
 	}
-})
+});
